@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: dad9cff23240c404eb1aba1c7f2934b2
+timeCreated: 1460854735
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 50
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Advanced Pixel-7
+  fontNames:
+  - Advanced Pixel
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 5ba3d4ed3aca4c3408d31943f8c54cda, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
