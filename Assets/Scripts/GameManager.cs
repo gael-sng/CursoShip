@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class GameManager : Utilities {
+public class GameManager : MonoBehaviour {
 
     public Camera MainCamera;
 
@@ -23,7 +23,7 @@ public class GameManager : Utilities {
 	// Use this for initialization
 	void Start () {
         _cc = Player.GetComponent<CharacterController>();
-        _maxHP = _cc.HitPoints;
+        //_maxHP = _cc.HitPoints;
 	}
 	
 	// Update is called once per frame
@@ -41,8 +41,8 @@ public class GameManager : Utilities {
 
     void UpdateUI()
     {
-        HealthBar.transform.localScale = new Vector3(((float)_cc.HitPoints) / 100f, 1, 1);
-        HealthText.text = string.Concat(_cc.HitPoints, " / ", _maxHP);
+        //HealthBar.transform.localScale = new Vector3(((float)_cc.HitPoints) / 100f, 1, 1);
+        //HealthText.text = string.Concat(_cc.HitPoints, " / ", _maxHP);
         ScoreText.text = string.Concat("Score ", Score);
 
         if (GameOver)
